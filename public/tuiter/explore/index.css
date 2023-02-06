@@ -3,15 +3,12 @@
     color: white;
     border-radius: 10px;
     margin: 16px 0px 16px 16px;
-    width: 745px;
+    width: 85%;
 }
 
 .wd-search-gear {
-    margin-top: 16px;
-    margin-left: 12px;
-    margin-down: 16px;
-    margin-right: 16px;
-    font-size: 22px;
+    margin: 16px 16px 16px 12px;
+    font-size: 18px;
     color: rgb(29,161,242);
 }
 
