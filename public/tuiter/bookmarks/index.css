@@ -6,7 +6,7 @@
 }
 
 .wd-bookmarks-user {
-    color: lightgray;
+    color: rgb(47, 51, 54);
     font-size: 13px;
     margin-left: 16px;
     margin-bottom: 12px;
@@ -39,7 +39,7 @@
 .wd-bookmarks-post-handle,
 .wd-bookmarks-post-date {
     font-size: 15px;
-    color: lightgray;
+    color: rgb(47, 51, 54);
 }
 
 .wd-bookmarks-post-tuit {
@@ -74,7 +74,7 @@
 }
 
 .wd-bookmarks-post-text {
-    color: lightgray;
+    color: rgb(47, 51, 54);
 }
 
 .wd-bookmarks-icons {
@@ -90,6 +90,7 @@
 .fa-retweet,
 .fa-heart {
     margin-right: 12px;
+    margin-bottom: 5px;
 }
 
 .fa-share,
@@ -97,17 +98,13 @@
 .fa-retweet {
     width: 12px;
     height: 12px;
-    color: lightgray;
+    color: rgb(47, 51, 54);
 }
 
 .wd-bookmarks-icons-comment-number,
 .wd-bookmarks-icons-retuit-number {
-    color: lightgray;
+    color: rgb(47, 51, 54);
     font-size: 15px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .fa-heart,
