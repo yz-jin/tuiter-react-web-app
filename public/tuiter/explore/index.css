@@ -1,12 +1,24 @@
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     .list-group-item-action span {
         display: none;
     }
 }
 
-.btn-primary {
-    min-width: 65px;
+@media (max-width: 642px) {
+    .nav-item-action {
+        display: none;
+    }
 }
+
+button.btn.btn-primary.w-100.rounded-pill.mt-2 {
+    min-width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
 .more-rounded {
     border-radius: 100px;
 }
@@ -25,5 +37,5 @@
     border: dodgerblue;
     height: 35px;
     width: 80px;
-    min-width: 50px;
+    min-width: 80px;
 }
