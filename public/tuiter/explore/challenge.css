@@ -1,0 +1,71 @@
+@media (max-width: 1200px) {
+    .nav-item span {
+        display: none;
+    }
+}
+
+.fa {
+    width: 16px;
+    height: 16px;
+}
+
+.nav-link.active-left{
+    font-weight: bold;
+}
+
+.more-rounded {
+    border-radius: 60px;
+}
+
+.border-left-right {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+img.w-100.mb-1.border-bottom {
+    border-bottom: 1px solid lightgray;
+}
+
+a.nav-link.active-middle {
+    font-weight: bold;
+    color: black;
+    border-bottom: dodgerblue solid 3px;
+}
+
+button.btn.btn-primary.w-100.rounded-pill.mt-2 {
+    min-width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.custom-img-size {
+    height: 80px;
+    width: 80px;
+}
+
+.custom-avatar-size {
+    height: 50px;
+    width: 50px;
+}
+.btn-black {
+    background-color: black;
+    color: white;
+    border: 0;
+    height: 35px;
+    width: 80px;
+    min-width: 80px;
+}
+.clearfix {
+    padding-left: 16px;
+}
+
+.d-block {
+    display: block;
+}
