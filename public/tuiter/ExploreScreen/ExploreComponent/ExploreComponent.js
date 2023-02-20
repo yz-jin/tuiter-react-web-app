@@ -32,7 +32,7 @@ const ExploreComponent = () => {
         </li>                
     </ul>
     <div class="position-relative">
-        <img src="../../images/starshipspacex.jpeg" class="w-100" alt="spacex">
+        <img src="../../images/starshipspacex.jpeg" class="w-100 mb-2" alt="spacex">
         <div class="position-absolute bottom-0 left-0 text-white ms-2">
             <h3 class="text-center">SpaceX's Starship</h3>
         </div>
