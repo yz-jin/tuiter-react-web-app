@@ -1,11 +1,12 @@
-@media (max-width: 1200px) {
-    .list-group-item-action span {
+@media (max-width: 768px) {
+    .nav-item.nav-item-action {
         display: none;
     }
 }
 
-@media (max-width: 642px) {
-    .nav-item-action {
+
+@media (max-width: 1200px) {
+    span {
         display: none;
     }
 }
@@ -22,6 +23,7 @@ button.btn.btn-primary.w-100.rounded-pill.mt-2 {
 .more-rounded {
     border-radius: 100px;
 }
+
 .custom-img-size {
     height: 80px;
     width: 80px;
@@ -31,6 +33,11 @@ button.btn.btn-primary.w-100.rounded-pill.mt-2 {
     height: 50px;
     width: 50px;
 }
+
+input.form-control.border-0 {
+    border-radius: 100px;
+}
+
 .btn-blue {
     background-color: dodgerblue;
     color: white;

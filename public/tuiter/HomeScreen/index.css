@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    .nav-item.nav-item-action {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    span {
+        display: none;
+    }
+}
+
+button.btn.btn-primary.w-100.rounded-pill.mt-2 {
+    min-width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+}
+
+.more-rounded {
+    border-radius: 100px;
+}
+
+.custom-img-size {
+    height: 80px;
+    width: 80px;
+}
+
+.custom-avatar-size {
+    height: 50px;
+    width: 50px;
+}
+
+input.form-control.border-0 {
+    border-radius: 100px;
+}
+
+.btn-blue {
+    background-color: dodgerblue;
+    color: white;
+    border: dodgerblue;
+    height: 35px;
+    width: 80px;
+    min-width: 80px;
+}
