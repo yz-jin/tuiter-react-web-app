@@ -46,3 +46,7 @@ input.form-control.border-0 {
     width: 80px;
     min-width: 80px;
 }
+
+a.nav-link.active {
+    border-radius: 0;
+}
