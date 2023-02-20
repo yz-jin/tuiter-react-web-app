@@ -1,8 +1,8 @@
 /* eslint-env jquery */
 
 import NavigationSidebar from "../ExploreScreen/NavigationSidebar/index.js";
-import PostSummaryList from "../ExploreScreen/ExploreComponent/PostSummaryList";
-import PostList from "./PostList";
+import PostSummaryList from "../ExploreScreen/ExploreComponent/PostSummaryList/index.js";
+import PostList from "./PostList/index.js";
 
 function homeScreen() {
     $('#wd-home').append(`
