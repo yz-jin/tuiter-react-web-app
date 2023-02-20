@@ -47,3 +47,6 @@ input.form-control.border-0 {
     min-width: 80px;
 }
 
+.text-dimgrey {
+    color: dimgrey;
+}
