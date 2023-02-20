@@ -14,7 +14,7 @@ const PostSummaryItem = (post) => {
                     </div>
                     <div class="me-5"><b>${post.title}</b></div>
                 </div>
-                <img src="${post.image}" class="custom-img-size mt-auto ms-auto mb-auto float-end" alt="${post.userName}">
+                <img src="${post.image}" class="custom-img-size mt-auto ms-auto mb-auto float-end" style="border-radius: 10px" alt="${post.userName}">
             </div>
         </a>
     `);
