@@ -11,7 +11,7 @@ const ExploreComponent = () => {
                    <input type="text" class="form-control border-0" placeholder="Search Twitter">
             </div>
             <span class="d-inline-block ms-3 align-self-center bg-transparent border-0">
-                <i class="fas fa-cog" style="font-size: 1.5rem; color: dodgerblue"></i>
+                <i class="fas fa-cog" style="font-size: 1.5rem; color: #2a9fd6"></i>
             </span>
     </div>
     <ul class="nav nav-tabs mt-2 mb-2">
