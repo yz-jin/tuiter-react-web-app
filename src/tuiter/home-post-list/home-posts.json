@@ -1,0 +1,29 @@
+[{
+  "_id": 1,
+  "avatarIcon": "../../images/elonmusk.png",
+  "userName": "Elon Musk",
+  "handle": "elonmusk",
+  "time": "23h",
+  "text": "Amazing show about @Inspiration4x mission!",
+  "image": "../../images/starshipspacex.jpeg",
+  "imageTitle": "Countdown: Inspiration4 Mission to Space",
+  "imageText": "From training to launch to landing, this all-access documentaries rides along with the Inspirational4 crew on the first all-civilian orbital space...",
+  "comments": "4.2k",
+  "retuits": "3,5k",
+  "likes": "37,5k"
+},
+  {
+    "_id": 2,
+    "avatarIcon": "../../images/elonmusk.png",
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "23h",
+    "text": "Amazing show about @Inspiration4x mission!",
+    "image": "../../images/starshipspacex.jpeg",
+    "imageTitle": "",
+    "imageText": "",
+    "comments": "4.2k",
+    "retuits": "3,5k",
+    "likes": "37,5k"
+  }
+]
