@@ -28,7 +28,7 @@ function App() {
               <Routes>
                   <Route path="/hello" element={<HelloWorld/>}/>
                   <Route index element={<Labs/>}/>
-                  <Route path="/tuiter" element={<Tuiter/>}/>
+                  <Route path="/tuiter/*" element={<Tuiter/>}/>
               </Routes>
           </div>
       </BrowserRouter>

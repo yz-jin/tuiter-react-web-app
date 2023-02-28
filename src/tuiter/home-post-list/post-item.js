@@ -25,33 +25,49 @@ const PostItem = (
                         src={post.avatarIcon}
                         alt={`${post.userName}'s profile`}
                         className="img-fluid rounded-circle"
+                        height={60}
+                        width={60}
                     />
                 </div>
                 <div className="col-10">
-                    <div className="d-flex flex-row justify-content-between align-items-center">
-                        <h5 className="mb-0">{post.userName}</h5>
-                        <span className="text-muted">{post.time}</span>
-                    </div>
-                    <p className="mb-0">@{post.handle}</p>
-                    <p className="my-3">{post.text}</p>
-                    {post.imageTitle && (
-                        <div className="my-3">
-                            <img
-                                src={post.image}
-                                alt={post.imageTitle}
-                                className="img-fluid"
-                            />
-                            <div className="text-muted">{post.imageText}</div>
+                    <div className="d-flex w-100 justify-content-between mb-1">
+                        <div className="d-flex">
+                            <p className="mb-0">{post.userName}&nbsp;</p>
+                            <div style={{ display: "inline-block" }}>
+                                <i className="bi bi-check-circle"></i>
+                                <span className="text-muted"> @{post.handle}</span>
+                                <span className="text-muted"> · {post.time}</span>
+                            </div>
                         </div>
-                    )}
-                    <div className="d-flex flex-row justify-content-between align-items-center">
-                        <div className="d-flex flex-row align-items-center">
+                        <small><i className="bi bi-three-dots"></i></small>
+                    </div>
+
+                    <p className="mb-2">{post.text}</p>
+                    <div className="mb-2 border" style={{ borderColor: "rgba(0, 0, 0, 0.125)", borderRadius: "10px" }}>
+                        <img
+                            src={post.image}
+                            alt={post.imageTitle}
+                            className="img-fluid rounded"
+                        />
+                        {post.imageTitle !== '' && <hr className="mt-0 mb-1" style={{ borderTop: "1px solid rgba(0, 0, 0, 0.1)" }} />}
+                        <div className="ms-2 me-2">{post.imageTitle}</div>
+                        <div className="text-muted ms-2 me-2">{post.imageText}</div>
+                    </div>
+                    <div className="d-flex justify-content-between" style={{marginInlineEnd: '20%'}}>
+                        <div>
                             <i className="bi bi-chat-square"></i>
-                            <span className="mx-1">{post.comments}</span>
-                            <i className="bi bi-arrow-repeat mx-2"></i>
-                            <span className="mx-1">{post.retuits}</span>
-                            <i className="bi bi-heart mx-2"></i>
-                            <span className="mx-1">{post.likes}</span>
+                            <span>&nbsp;&nbsp;{post.comments}</span>
+                        </div>
+                        <div>
+                            <i className="bi bi-arrow-repeat"></i>
+                            <span>&nbsp;&nbsp;{post.retuits}</span>
+                        </div>
+                        <div>
+                            <i className="bi bi-heart"></i>
+                            <span>&nbsp;&nbsp;{post.likes}</span>
+                        </div>
+                        <div>
+                            <i className="bi bi-arrow-right"></i>
                         </div>
                     </div>
                 </div>
